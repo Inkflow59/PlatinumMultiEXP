@@ -1,0 +1,7 @@
+*.nds
+*.sav
+*.dsv
+.superpowers/
+build/
+__pycache__/
+.pytest_cache/
