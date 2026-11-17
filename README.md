@@ -14,6 +14,7 @@ Pokémon games, without having to hold the Exp. Share.
 | French | `CPUF`, rev 0 | `platinum-multiexp-fr.bps` |
 | US | `CPUE`, rev 0 | `platinum-multiexp-us.bps` |
 | US Rev 1 | `CPUE`, rev 1 | `platinum-multiexp-us-rev1.bps` |
+| Europe | `CPUE`, rev 10 | `platinum-multiexp-eu.bps` |
 
 Other versions are not supported: the tool refuses to patch an unknown ROM, and a
 `.bps` patch refuses to apply to a ROM it was not made for (CRC check).

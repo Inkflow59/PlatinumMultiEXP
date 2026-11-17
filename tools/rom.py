@@ -21,6 +21,7 @@ SUPPORTED_VERSIONS = [
     RomVersion("CPUF", 0, "fr"),
     RomVersion("CPUE", 0, "us"),
     RomVersion("CPUE", 1, "us-rev1"),
+    RomVersion("CPUE", 10, "eu"),  # "Europe" dump, header says CPUE rev 10
 ]
 
 
