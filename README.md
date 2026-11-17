@@ -15,13 +15,17 @@ Pokémon games, without having to hold the Exp. Share.
 | US | `CPUE`, rev 0 | `platinum-multiexp-us.bps` |
 | US Rev 1 | `CPUE`, rev 1 | `platinum-multiexp-us-rev1.bps` |
 | Europe | `CPUE`, rev 10 | `platinum-multiexp-eu.bps` |
+| Japanese | `CPUJ`, rev 0 | `platinum-multiexp-jp.bps` |
+| Spanish | `CPUS`, rev 0 | `platinum-multiexp-es.bps` |
+| German | `CPUD`, rev 0 | `platinum-multiexp-de.bps` |
+| Italian | `CPUI`, rev 0 | `platinum-multiexp-it.bps` |
 
 Other versions are not supported: the tool refuses to patch an unknown ROM, and a
 `.bps` patch refuses to apply to a ROM it was not made for (CRC check).
 
-Status: the French patch was tested in melonDS. The US patches were not played in an
+Status: the French patch was tested in melonDS. The other patches were not played in an
 emulator yet, but they are built by the same code, and the automated tests run against
-all three ROMs. Back up your save before using any patch.
+all eight ROMs. Back up your save before using any patch.
 
 ## Applying a patch
 

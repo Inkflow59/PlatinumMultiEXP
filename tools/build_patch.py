@@ -2,7 +2,7 @@
 
 See docs/notes/exp-routine.md for the rationale behind each change.
 Usage: python tools/build_patch.py <original_rom.nds> <patched_rom.nds>
-Supported ROMs: French, US, US Rev 1 (detected automatically).
+Supported ROMs: see rom.SUPPORTED_VERSIONS (detected automatically).
 """
 import sys
 

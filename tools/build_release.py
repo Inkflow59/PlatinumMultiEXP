@@ -1,7 +1,7 @@
 """Build one BPS patch per ROM given on the command line.
 
 Usage: python tools/build_release.py <out_dir> <rom1.nds> [<rom2.nds> ...]
-Writes <out_dir>/platinum-multiexp-<version>.bps (version: fr, us, us-rev1).
+Writes <out_dir>/platinum-multiexp-<version>.bps (version: see rom.SUPPORTED_VERSIONS).
 """
 import os
 import sys

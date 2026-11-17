@@ -1,4 +1,4 @@
-"""Reading Pokemon Platinum ROMs (French, US, US Rev 1).
+"""Reading Pokemon Platinum ROMs (French, US, US Rev 1, Europe, Japan, Spanish, German, Italian).
 
 The battle code, including the experience distribution, lives in overlay 16, which is
 stored uncompressed in the ROM. Its load address depends on the game version.
@@ -22,6 +22,10 @@ SUPPORTED_VERSIONS = [
     RomVersion("CPUE", 0, "us"),
     RomVersion("CPUE", 1, "us-rev1"),
     RomVersion("CPUE", 10, "eu"),  # "Europe" dump, header says CPUE rev 10
+    RomVersion("CPUJ", 0, "jp"),
+    RomVersion("CPUS", 0, "es"),
+    RomVersion("CPUD", 0, "de"),
+    RomVersion("CPUI", 0, "it"),
 ]
 
 

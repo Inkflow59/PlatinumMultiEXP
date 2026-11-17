@@ -16,4 +16,4 @@ Use a **copy** of the patched ROM and a test save. Each line: expected result.
 - [ ] A battle where everyone but one Pokémon is fainted: no crash.
 - [ ] Save, quit, reload: the game loads normally.
 
-Done on the French ROM (melonDS): basic behaviour confirmed. US ROMs: not yet played.
+Done on the French ROM (melonDS): basic behaviour confirmed. Other ROMs: not yet played.

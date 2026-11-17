@@ -5,7 +5,7 @@ import rom
 
 def test_detect_version_rejects_unsupported_code(tmp_path):
     header = bytearray(0x200)
-    header[0x0C:0x10] = b"CPUJ"
+    header[0x0C:0x10] = b"CPUK"
     path = tmp_path / "fake.nds"
     path.write_bytes(bytes(header))
     with pytest.raises(ValueError):

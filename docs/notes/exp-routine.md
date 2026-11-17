@@ -6,7 +6,7 @@ with the public pret/pokeplatinum decompilation (`BtlCmd_CalcExpGain` and
 original design targeted it by mistake.
 
 Addresses below are for the French ROM (overlay base `0x0223B320`). The code is the same in
-the US ROMs (base `0x0223B140`, everything 0x2E8 lower); the tools find each site with a
+the other ROMs (e.g. US base `0x0223B140`, everything 0x2E8 lower; JP `0x0223A540`); the tools find each site with a
 byte signature, so nothing is hard-coded per version.
 
 Constants: Exp. Share hold effect = `0x33`, Lucky Egg = `0x42`, `MON_DATA_IS_EGG` = `0x4C`,
