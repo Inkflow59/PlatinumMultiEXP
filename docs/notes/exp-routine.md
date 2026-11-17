@@ -27,7 +27,7 @@ Battle context fields: `gainedExp` at `+0x9C`, `sharedExp` at `+0xA0`.
 | Address (FR) | Original | New | Effect |
 |---|---|---|---|
 | `0x022420CC` | `bne 0x22420D4` | `b 0x22420D4` | nobody counts as a holder: the "no Exp. Share" branch is always taken |
-| `0x0224217C` | `movs r0,#0` | `b payload1` | `sharedExp = max(1, gainedExp >> 1)` instead of 0 |
+| `0x0224217C` | `movs r0,#0` | `b payload1` | `sharedExp = max(1, gainedExp >> SHIFT)` instead of 0 (SHIFT = 0: 100 %) |
 | `0x022491B8` | `beq 0x22491DE` | `b 0x22491DE` | the selection loop processes every party member |
 | `0x02249318` | `ldr r0,[sp,#0x18]` | `bl payload2` | non-participant (and not an egg): its gain is `sharedExp` |
 | `0x0224931C` | `bne 0x224932C` | `b 0x224932C` | the rest of the old Exp. Share test is skipped |

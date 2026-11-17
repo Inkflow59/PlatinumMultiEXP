@@ -15,7 +15,7 @@ from find_exp import Sites
 # Fraction of the EXP a Pokemon receives when it did not take part in the battle,
 # relative to a participant: participant EXP >> SHIFT.
 # SHIFT = 1 -> 50 % (like Gen 6/7); SHIFT = 0 -> 100 %.
-NON_PARTICIPANT_SHARE_SHIFT = 1
+NON_PARTICIPANT_SHARE_SHIFT = 0
 
 MON_DATA_IS_EGG = 0x4C
 

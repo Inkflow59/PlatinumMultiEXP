@@ -4,7 +4,7 @@ A patch that gives experience to **the whole team** after a battle, like in rece
 Pokémon games, without having to hold the Exp. Share.
 
 - Pokémon that fought keep their full share.
-- Other living Pokémon (eggs excluded) receive **half** of that share.
+- Other living Pokémon (eggs excluded) receive **the same full share** (100 %).
 - The held Exp. Share no longer stacks with this behaviour.
 
 ## Supported ROMs
@@ -44,7 +44,7 @@ python tools/build_patch.py "<rom>.nds" "<patched>.nds"
 
 ## Changing the share of non-participants
 
-In `tools/build_patch.py`, `NON_PARTICIPANT_SHARE_SHIFT = 1` gives 50 %; `0` gives 100 %.
+In `tools/build_patch.py`, `NON_PARTICIPANT_SHARE_SHIFT = 0` gives 100 % (current); `1` gives 50 %.
 Rebuild the patches afterwards.
 
 ## How it works

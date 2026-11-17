@@ -63,10 +63,10 @@ def layout(request):
     return request.param
 
 
-def test_non_participant_share_is_half(layout):
-    assert bp.NON_PARTICIPANT_SHARE_SHIFT == 1
-    assert _run_payload1(layout, 100) == 50
-    assert _run_payload1(layout, 101) == 50
+def test_non_participant_share_is_full(layout):
+    assert bp.NON_PARTICIPANT_SHARE_SHIFT == 0
+    assert _run_payload1(layout, 100) == 100
+    assert _run_payload1(layout, 101) == 101
 
 
 def test_non_participant_share_is_never_zero(layout):
